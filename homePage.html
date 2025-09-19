@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Connect</title>
+    <link rel="stylesheet" href="stylesForHomePage.css">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #1e3a8a; 
+    color: white;
+    padding: 15px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #fbbf24;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6); 
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.cta-buttons .btn {
+    text-decoration: none;
+    background-color: #fbbf24;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #e94e77;
+    transform: translateY(-3px);
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+.feature-item {
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.feature-item i {
+    font-size: 50px;
+    color: #1e3a8a; 
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+
+.community-forums {
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+}
+
+.community-forums h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.community-forums p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.community-forums .btn {
+    text-decoration: none;
+    background-color: #fbbf24;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.community-forums .btn:hover {
+    background-color: #e94e77;
+    transform: translateY(-3px);
+}
+
+
+footer {
+    background-color: #1e3a8a; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #fbbf24;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Alumni Connect</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <h2>Welcome to Alumni Connect</h2>
+            <p>Reunite with your fellow alumni, stay updated with events, and support your alma mater.</p>
+        </div>
+        <div class="cta-buttons">
+            <a href="signUp.html" class="btn">Sign Up</a>
+            <a href="signin.html" class="btn">Sign In</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-item">
+            <i class="fas fa-newspaper"></i>
+            <h3>Alumni News</h3>
+            <p>Stay updated with the latest news and achievements of your fellow alumni.</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Upcoming Events</h3>
+            <p>Don't miss out on the upcoming alumni events and reunions. Stay connected!</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-users"></i>
+            <h3>Alumni Directory</h3>
+            <p>Connect with your batchmates or alumni from different batches through our directory.</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-hand-holding-heart"></i>
+            <h3>Donate</h3>
+            <p>Support the growth of your alma mater by making a donation.</p>
+        </div>
+    </section>
+
+    <section class="community-forums">
+        <div class="forum-title">
+            <h2>Community Forums</h2>
+            <p>Join discussions and share your experiences with the alumni community.</p>
+        </div>
+        <a href="forum.html" class="btn">Go to Forums</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Alumni Connect. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
